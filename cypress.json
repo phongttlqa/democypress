@@ -1,0 +1,5 @@
+{
+    "testFiles": "**/*.*",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 20000
+}

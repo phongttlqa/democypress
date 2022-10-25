@@ -1,0 +1,219 @@
+{
+    "profileDto":{
+        "personalInfo":{
+           "fullName":"Anh Vương Ngọc",
+           "firstName":"Ngọc",
+           "lastName":"Anh Vương",
+           "email":"haint23@techcombank.com.vn",
+           "phoneNumber":"0523892408",
+           "phoneCode":"+84",
+           "isForeignPhone":null,
+           "gender":"FEMALE",
+           "birthday":"1994-12-28T00:00:00.000Z",
+           "contactAddress":"Địa chỉ liên hệ Địa chỉ liên hệ Địa chỉ liên hệ",
+           "permanentAddress":"test TCBS12934893",
+           "job":null,
+           "nationality":"VN",
+           "referer":null,
+           "identityCard":{
+              "idNumber":"1234560122",
+              "idPlace":"SỞ KẾ HOẠCH VÀ ĐẦU TƯ TỈNH HẢI DƯƠNG",
+              "idDate":"2017-05-04T07:00:00.000+07:00",
+              "idUrl":null,
+              "expireDate":null,
+              "scanIdFiles":[
+                 
+              ],
+              "additionalFiles":[
+                 
+              ]
+           },
+           "original":{
+              "originalId":-1,
+              "originalName":"",
+              "originalType":null,
+              "districtId":null,
+              "districtName":"",
+              "districtType":null,
+              "provinceId":null,
+              "provinceName":"",
+              "provinceType":null
+           },
+           "taxIdNumber":null,
+           "acronym":null,
+           "avatarData":null,
+           "province":null,
+           "typeAccount":null,
+           "userId":5193745,
+           "relationship":null,
+           "createdDate":"2017-12-28T09:57:01.000Z",
+           "updatedDate":"2020-12-24T14:31:40.000Z",
+           "profilePicture":null,
+           "honorific":-1,
+           "rmValue":null,
+           "flowOpenAccount":0,
+           "envelopeId":null,
+           "checkHardCopy":"1",
+           "editable":false,
+           "referralCode":null,
+           "statusProcess":null,
+           "branchCode":null,
+           "branchName":null,
+           "openAccountData":null,
+           "videoKyc":null,
+           "homePhone":null,
+           "fax":null,
+           "contractPayload":"{\"C0\":\"1\",\"C1\":\"0\",\"C2\":\"5\",\"C3\":\"C\",\"C4\":\"0\",\"C5\":\"0\",\"C6\":\"0\",\"C7\":\"0\",\"C8\":\"8\",\"C9\":\"2\",\"cusFullName\":\"Anh Vương Ngọc\",\"cusGender\":\"Nữ\",\"cusBirthday\":\"28/12/1994\",\"cusJob\":\"\",\"cusCitizenship\":\"\",\"cusIdNumber\":\"1\",\"cusIdDate\":\"04/05/2017\",\"cusIdPlace\":\"SỞ KẾ HOẠCH VÀ ĐẦU TƯ TỈNH HẢI DƯƠNG\",\"cusAddress\":\"Địa chỉ liên hệ Địa chỉ liên hệ Địa chỉ liên hệ\",\"cusPermanentaddress\":\"test TCBS12934893\",\"cusEmail\":\"\",\"cusPhone\":\"0112233445\",\"cusBankAccountnumber\":\"12345620817157\",\"cusBankAccountName\":\"fullname30310001\",\"cusBankCodeText\":\"NH TMCP KY THUONG VN\",\"cusBranch\":\"NH TMCP KY THUONG VN CN HAI DUONG\",\"haveForeignTrustorY\":\"NO\",\"haveForeignTrustorN\":\"YES\",\"investmentKnowledgeUnderstandingNone\":\"NO\",\"investmentKnowledgeUnderstandingLimited\":\"NO\",\"investmentKnowledgeUnderstandingGood\":\"NO\",\"investmentKnowledgeUnderstandingVGood\":\"NO\",\"investmentKnowledgeExperienceNone\":\"NO\",\"investmentKnowledgeExperienceStock\":\"NO\",\"investmentKnowledgeExperienceBond\":\"NO\",\"investmentKnowledgeExperienceOther\":\"NO\",\"investmentKnowledgeObjectivesLongTerm\":\"NO\",\"investmentKnowledgeObjectivesMidTerm\":\"NO\",\"investmentKnowledgeObjectivesShortTerm\":\"NO\",\"investmentKnowledgeObjectivesOther\":\"NO\",\"investmentKnowledgeRiskToleranceLow\":\"NO\",\"investmentKnowledgeRiskToleranceMedium\":\"NO\",\"investmentKnowledgeRiskToleranceHigh\":\"NO\",\"investmentKnowledgeRiskToleranceOther\":\"NO\"}",
+           "password":null,
+           "refId":"5187769263619605",
+           "businessType":"OTHER",
+           "subFlowOpenAccount":null,
+           "avatarUrl":"https://sit-focus.s3.ap-southeast-1.amazonaws.com/avatar/0001954259.jpeg"
+        },
+        "basicInfo":{
+           "tcbsId":"0001954259",
+           "code105C":"105C000082",
+           "status":"ACTIVE",
+           "type":"INDIVIDUAL",
+           "accountType":"ADVANCED"
+        },
+        "userSetting":null,
+        "bankAccounts":[
+           
+        ],
+        "enterpriseInfo":null,
+        "accountStatus":{
+           "fundActivationStatus":"1",
+           "fundActivationDate":"2020-05-14T17:00:00.000Z",
+           "fundAccount":"105C000082",
+           "flexActivationStatus":"1",
+           "flexActivationDate":"2017-12-27T17:00:00.000Z",
+           "flexAccount":"105C000082",
+           "tcBondAccount":"0001954259",
+           "transferStatus":"1",
+           "confirmed105CStatus":"NOT_CONFIRMED_YET",
+           "docusignStatus":"SIGNED",
+           "onboardingStatus":{
+              "activatedStatus":null,
+              "preferActivationChannelStatus":{
+                 "value":"COUNTER_PREFER",
+                 "rejectReason":null,
+                 "rejectContent":null,
+                 "rejectPerson":null,
+                 "updatedDate":null
+              },
+              "idStatus":null,
+              "bankInfoStatus":{
+                 "value":"WAIT_FOR_VERIFY",
+                 "rejectReason":null,
+                 "rejectContent":null,
+                 "rejectPerson":null,
+                 "updatedDate":null
+              },
+              "counterKycStatus":null,
+              "documentStatus":{
+                 "value":"VERIFIED",
+                 "rejectReason":null,
+                 "rejectContent":null,
+                 "rejectPerson":null,
+                 "updatedDate":null
+              },
+              "accountPermissionStatus":null,
+              "privateAccountStatus":null,
+              "resignStatus":{
+                 "value":"HAS_CHANGE_INFO",
+                 "rejectReason":null,
+                 "rejectContent":"CMND/CCCD,họ tên và ngày sinh",
+                 "rejectPerson":null,
+                 "updatedDate":"2022-09-09T15:57:42.000+07:00"
+              },
+              "ekycStatus":{
+                 "value":"WAIT_EKYC",
+                 "rejectReason":null,
+                 "rejectContent":null,
+                 "rejectPerson":null,
+                 "updatedDate":null
+              },
+              "econtractStatus":{
+                 "value":"WAIT_ADDITIONAL_INFO",
+                 "rejectReason":null,
+                 "rejectContent":null,
+                 "rejectPerson":null,
+                 "updatedDate":null
+              }
+           },
+           "hasPermBondPt":false,
+           "tccAccountStatus":"0",
+           "hnxActivationStatus":null,
+           "hnxAccount":null,
+           "authenticationStatus":false,
+           "derivativeActivationStatus":"VSD_ACTIVATED",
+           "derivativeActivationDate":null,
+           "iastatus":{
+              "autoTransfer":"N",
+              "isIAPaid":"N",
+              "isIA":"Y"
+           }
+        },
+        "closeInfo":{
+           "channel":null,
+           "flexCloseDate":null,
+           "fundCloseDate":null,
+           "derivativeCloseDate":null
+        },
+        "bankIaAccounts":[
+           
+        ],
+        "bankSubAccounts":[
+           
+        ],
+        "books":[
+           {
+              "bookId":55800,
+              "bookStatus":"ENOUGH_BOOK",
+              "bookNumber":"DNTN_QUYỂN 1E_02",
+              "bookType":"OPEN",
+              "bookReceivedDate":"2018-05-30T17:00:00.000Z",
+              "bookManagerGroup":"CS",
+              "bookManagerUser":"Lê Hoàng My",
+              "bookNote":"HVN rà soát: RM:  \n \nKH: Bố sung thêm phần CMT của ĐDPL  bà Phạm Thị Anh bị mờ \n \nTCBS: ",
+              "bookEmailRMUpload":null
+           },
+           {
+              "bookId":104644,
+              "bookStatus":"ENOUGH_BOOK",
+              "bookNumber":"DNTN_QUYỂN 1E_02",
+              "bookType":"OPEN",
+              "bookReceivedDate":"2018-10-06T11:30:00.000Z",
+              "bookManagerGroup":null,
+              "bookManagerUser":"Công Ty Tnhh Dương Phạm Investment",
+              "bookNote":"- HVN rà soát: RM:  \n \nKH: Bố sung thêm phần CMT của ĐDPL  bà Phạm Thị Anh bị mờ \n \nTCBS: ",
+              "bookEmailRMUpload":null
+           },
+           {
+              "bookId":112515,
+              "bookStatus":"ENOUGH_BOOK",
+              "bookNumber":"DNTN_QUYỂN 1E_02",
+              "bookType":"OPEN",
+              "bookReceivedDate":"2018-12-09T17:00:00.000Z",
+              "bookManagerGroup":"IWEALTH",
+              "bookManagerUser":"Đào Phương Dung",
+              "bookNote":"Đã bổ sung CMT màu của người đại diện theo pháp luật",
+              "bookEmailRMUpload":null
+           }
+        ],
+        "uploadedDocuments":[
+           
+        ],
+        "otp":null,
+        "systemUserInfo":null,
+        "partnerships":[
+           
+        ],
+        "rmInfo":null
+     },
+     "contractTrustDto":null,
+     "kycHistoryDtos":[
+        
+     ]
+    }
