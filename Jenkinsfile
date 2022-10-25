@@ -1,40 +1,37 @@
 pipeline {
-   agent any
+    agent any
 
-   tools {
-      nodejs "Node12"
-   }
+    tools {nodejs "node"}
 
-   environment {
-       CHROME_BIN = '/bin/google-chrome'
-   }
+    environment {
+        CHROME_BIN = '/bin/google-chrome'
+    }
 
-   stages {
-       stage('Dependencies') {
-           steps {
-               sh 'npm i'
+    stages {
+        stage('Dependencies') {
+            steps {
+                sh 'npm i'
             }
-         }
-         
-       stage('e2e Tests') {
-         Parallel {
-             stage('Test 1') {
-                  steps {
-                     sh 'npm run cypress:ci'
-               }
+        }
+        stage('Build') {
+            steps {
+                sh 'npm run build'
             }
-             
-             stage('Test 2') {
-                  steps {
-                     sh 'npm run cypress2:ci'
-               }
+        }
+        stage('Unit Tests') {
+            steps {
+                sh 'npm run test'
             }
-         }
-      }
-       stage('Deploy') {
-           steps {
-               echo 'Deploying....'
-         }
-      }
-   }
+        }
+        stage('e2e Tests') {
+            steps {
+                sh 'npm run cypress:ci'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
